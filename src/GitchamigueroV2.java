@@ -1,5 +1,6 @@
 public class GitchamigueroV2 {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    static String doGitchamiga(int valor){
+        return "1";
     }
+
 }
