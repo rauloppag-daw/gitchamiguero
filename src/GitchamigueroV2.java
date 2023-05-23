@@ -5,7 +5,7 @@ public class GitchamigueroV2 {
             return "Gacha";
         }
 
-        if(valor == 5){
+        if(valor % 5 == 0){
             return "Miga";
         }
 

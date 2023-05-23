@@ -54,5 +54,9 @@ public class GitchamigueroV2Test {
         String resultado = GitchamigueroV2.doGitchamiga(9);
         Assert.assertEquals("Gacha",resultado);
     }
-    
+    @Test
+    public void Testfor10(){
+        String resultado = GitchamigueroV2.doGitchamiga(10);
+        Assert.assertEquals("Miga",resultado);
+    }
 }
