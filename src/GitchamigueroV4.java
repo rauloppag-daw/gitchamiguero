@@ -1,5 +1,5 @@
-public class GitchamigueroV3 {
-    static String doGitchamiga(int valor){
+public class GitchamigueroV4 {
+    static String catar(int valor){
         String resultado = valor+"";
 
         if(valor % 3 == 0){
