@@ -1,7 +1,7 @@
 public class GitchamigueroV2 {
     static String doGitchamiga(int valor){
 
-        if(valor == 3){
+        if(valor % 3 == 0){
             return "Gacha";
         }
 
