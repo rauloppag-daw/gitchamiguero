@@ -1,19 +1,20 @@
-public class GitchamigueroV2 {
+public class GitchamigueroV3 {
     static String doGitchamiga(int valor){
-
-        if(valor % 3 == 0 && valor % 5 == 0){
-            return "Gachamiga";
-        }
+        String resultado = valor+"";
 
         if(valor % 3 == 0){
-            return "Gacha";
+            resultado = "Gacha";
         }
 
         if(valor % 5 == 0){
-            return "Miga";
+            resultado = "Miga";
         }
 
-        return valor+"";
+        if(valor % 15 == 0){
+            resultado = "Gachamiga";
+        }
+
+        return resultado;
     }
 
 }
